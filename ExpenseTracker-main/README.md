@@ -31,6 +31,7 @@ Welcome to the Expense Tracker App repository! It is a simple web application wh
 2. Open the project in your preferred Java IDE.
 3. Make sure you have MySQL installed on your machine
 4. Create a MySQL database named `Expensedb` or update the database configuration in `src/main/resources/application.properties` with your own database settings.
+5. Keep your table name as expenses or you can update according to your table name in expense file present in model package.
 6. Build and run the application using Maven via `mvn spring-boot:run` command or via IDE.
 7. Access the app in your browser at `http://localhost:9191`. You can change the serverport in application.properties file.
 
